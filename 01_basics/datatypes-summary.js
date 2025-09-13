@@ -34,4 +34,21 @@ const myFunction = function(){
 
 console.log(typeof anotherId);
 
-// https://262.ecma-international.org/5.1/#sec-11.4.3
+// https://262.ecma-international.org/5.1/#sec-11.4.3\
+
+let myyoutubename= "anuragdotcom"
+let anothername= myyoutubename
+anothername= "xyz"
+
+console.log(myyoutubename)
+console.log(anothername)
+
+const userone = {
+    email: "anurag@gmail.com",
+    pass: "anurag"
+}
+let usertwo=userone
+usertwo.email="anu@gmail.com"
+
+console.log(userone)
+console.log(usertwo)
